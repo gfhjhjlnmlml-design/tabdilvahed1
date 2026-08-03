@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تبدیل واحد</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="manifest" href="manifest.json">
+
+<meta name="theme-color" content="#1565c0">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>📚 تبدیل واحد</h1>
+
+
+<button class="dark-btn" onclick="darkMode()">
+🌙 حالت تاریک
+</button>
+
+
+<p>
+تبدیل واحد همراه با یادگیری
+</p>
+
+
+
+<select id="category" onchange="changeUnits()">
+
+<option value="length">📏 طول</option>
+
+<option value="weight">⚖️ وزن</option>
+
+<option value="volume">🧪 حجم</option>
+
+<option value="time">⏰ زمان</option>
+
+<option value="temperature">🌡️ دما</option>
+
+</select>
+
+
+
+<input 
+id="number"
+type="number"
+placeholder="عدد را وارد کنید"
+>
+
+
+
+<select id="from"></select>
+
+
+<span>⬇️</span>
+
+
+<select id="to"></select>
+
+
+
+<button onclick="convert()">
+تبدیل کن
+</button>
+
+
+
+<button class="clear" onclick="clearAll()">
+پاک کردن
+</button>
+
+
+
+<div class="result">
+
+
+<h2 id="answer">
+نتیجه
+</h2>
+
+
+<p id="learn">
+💡 نکته آموزشی اینجا نمایش داده می‌شود
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
