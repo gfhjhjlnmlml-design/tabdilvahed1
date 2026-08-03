@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.gfhjhjlnmlml_design.twa",
+        "sha256_cert_fingerprints": ["9A:BF:E3:A8:1C:DA:38:2A:F3:DB:2D:13:A4:F8:11:D8:CB:21:9C:3A:A4:A4:7B:FF:6D:BD:B5:B4:FB:CF:15:AE"]
+      }
+    }]
